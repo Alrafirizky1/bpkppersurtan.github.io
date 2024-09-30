@@ -24,7 +24,7 @@ main.container {
     min-height: 40vh;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 main h2 {

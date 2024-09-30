@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
     <title>Login Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <main class="container">
@@ -27,30 +27,13 @@
                 if (username === "admin" && password === "admin") {
                     alert("Login successful!"); // Aksi ketika login berhasil
                     // Bisa tambahkan redirect ke halaman berikutnya di sini
-                    window.location.href = "index.html"; // Contoh redirect ke halaman lain
+                    window.location.href = "/html/index.html"; // Contoh redirect ke halaman lain
                 } else {
                     alert("Login failed! Please try again.");
                 }
             });
         </script>
  
-
-        <div class="footer">
-            <span>Or Connect With Social Media</span>
-            <div class="social-fields">
-                <div class="social-field twitter">
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                        Sign in with Twitter
-                    </a>
-                </div>
-                <div class="social-field facebook">
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                        Sign in with Facebook
-                    </a>
-                </div>
-            </div>
         </div>
     </main>
 </body>
